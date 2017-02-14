@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 186301fc1faf97944960ce0190e4e327
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: FlatBar_Key
+    100002: Hammer_key
+    100004: //RootNode
+    100006: FPV_AutopsySwitch
+    100008: FPV_FlashLight
+    100010: FPV_FlatBar
+    100012: FPV_Hammer
+    100014: FPV_TorchStab
+    100016: FPV_FuseGreen
+    100018: PUI_AutopsySwitch
+    100020: PUI_FlashLight
+    100022: PUI_FlatBar
+    100024: PUI_FuseGreen
+    100026: PUI_Hammer
+    100028: PUI_TorchStab
+    100030: PUI_Cross
+    100032: FPV_Cross
+    100034: FPV_BoxOfMatches
+    100036: PUI_BoxOfMatches
+    100038: FPV_Ax
+    100040: PUI_Ax
+    400000: FlatBar_Key
+    400002: Hammer_key
+    400004: //RootNode
+    400006: FPV_AutopsySwitch
+    400008: FPV_FlashLight
+    400010: FPV_FlatBar
+    400012: FPV_Hammer
+    400014: FPV_TorchStab
+    400016: FPV_FuseGreen
+    400018: PUI_AutopsySwitch
+    400020: PUI_FlashLight
+    400022: PUI_FlatBar
+    400024: PUI_FuseGreen
+    400026: PUI_Hammer
+    400028: PUI_TorchStab
+    400030: PUI_Cross
+    400032: FPV_Cross
+    400034: FPV_BoxOfMatches
+    400036: PUI_BoxOfMatches
+    400038: FPV_Ax
+    400040: PUI_Ax
+    2300000: FlatBar_Key
+    2300002: Hammer_key
+    2300004: FPV_AutopsySwitch
+    2300006: FPV_FlashLight
+    2300008: FPV_FlatBar
+    2300010: FPV_Hammer
+    2300012: FPV_TorchStab
+    2300014: FPV_FuseGreen
+    2300016: PUI_AutopsySwitch
+    2300018: PUI_FlashLight
+    2300020: PUI_FlatBar
+    2300022: PUI_FuseGreen
+    2300024: PUI_Hammer
+    2300026: PUI_TorchStab
+    2300028: PUI_Cross
+    2300030: FPV_Cross
+    2300032: FPV_BoxOfMatches
+    2300034: PUI_BoxOfMatches
+    2300036: FPV_Ax
+    2300038: PUI_Ax
+    3300000: FlatBar_Key
+    3300002: Hammer_key
+    3300004: FPV_AutopsySwitch
+    3300006: FPV_FlashLight
+    3300008: FPV_FlatBar
+    3300010: FPV_Hammer
+    3300012: FPV_TorchStab
+    3300014: FPV_FuseGreen
+    3300016: PUI_AutopsySwitch
+    3300018: PUI_FlashLight
+    3300020: PUI_FlatBar
+    3300022: PUI_FuseGreen
+    3300024: PUI_Hammer
+    3300026: PUI_TorchStab
+    3300028: PUI_Cross
+    3300030: FPV_Cross
+    3300032: FPV_BoxOfMatches
+    3300034: PUI_BoxOfMatches
+    3300036: FPV_Ax
+    3300038: PUI_Ax
+    4300000: FlatBar_Key
+    4300002: Hammer_key
+    4300004: FPV_FlashLight
+    4300006: FPV_AutopsySwitch
+    4300008: FPV_TorchStab
+    4300010: FPV_Hammer
+    4300012: FPV_FlatBar
+    4300014: FPV_FuseGreen
+    4300016: PUI_FlatBar
+    4300018: PUI_Hammer
+    4300020: PUI_FuseGreen
+    4300022: PUI_FlashLight
+    4300024: PUI_AutopsySwitch
+    4300026: PUI_TorchStab
+    4300028: PUI_Cross
+    4300030: FPV_Cross
+    4300032: FPV_BoxOfMatches
+    4300034: PUI_BoxOfMatches
+    4300036: FPV_Ax
+    4300038: PUI_Ax
+    7400000: Use_Key_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Use_Key_Anim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

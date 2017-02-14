@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: ed1c0d6f5b5871d4090554971ac79336
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ' voltage_needle'
+    100002: ' voltage_needle01'
+    100004: ' voltage_needle03'
+    100006: //RootNode
+    100008: Bip
+    100010: Bip01_jaw
+    100012: Bip01_L_eye
+    100014: Bip01_R_eye
+    100016: Bip02 Head
+    100018: Bip02 HeadNub
+    100020: Bip02 L Calf
+    100022: Bip02 L Clavicle
+    100024: Bip02 L Finger0
+    100026: Bip02 L Finger0Nub
+    100028: Bip02 L Finger1
+    100030: Bip02 L Finger1Nub
+    100032: Bip02 L Foot
+    100034: Bip02 L Forearm
+    100036: Bip02 L Hand
+    100038: Bip02 L Thigh
+    100040: Bip02 L Toe0
+    100042: Bip02 L Toe0Nub
+    100044: Bip02 L UpperArm
+    100046: Bip02 Neck
+    100048: Bip02 Pelvis
+    100050: Bip02 R Calf
+    100052: Bip02 R Clavicle
+    100054: Bip02 R Finger0
+    100056: Bip02 R Finger0Nub
+    100058: Bip02 R Finger1
+    100060: Bip02 R Finger1Nub
+    100062: Bip02 R Foot
+    100064: Bip02 R Forearm
+    100066: Bip02 R Hand
+    100068: Bip02 R Thigh
+    100070: Bip02 R Toe0
+    100072: Bip02 R Toe0Nub
+    100074: Bip02 R UpperArm
+    100076: Bip02 Spine
+    100078: Bip02 Spine1
+    100080: dead_autopsy_body
+    100082: l_legs
+    100084: tag_head
+    100086: tag_torso
+    100088: u_torso
+    100090: Zombie_mover
+    100092: h_head
+    400000: ' voltage_needle'
+    400002: ' voltage_needle01'
+    400004: ' voltage_needle03'
+    400006: //RootNode
+    400008: Bip
+    400010: Bip01_jaw
+    400012: Bip01_L_eye
+    400014: Bip01_R_eye
+    400016: Bip02 Head
+    400018: Bip02 HeadNub
+    400020: Bip02 L Calf
+    400022: Bip02 L Clavicle
+    400024: Bip02 L Finger0
+    400026: Bip02 L Finger0Nub
+    400028: Bip02 L Finger1
+    400030: Bip02 L Finger1Nub
+    400032: Bip02 L Foot
+    400034: Bip02 L Forearm
+    400036: Bip02 L Hand
+    400038: Bip02 L Thigh
+    400040: Bip02 L Toe0
+    400042: Bip02 L Toe0Nub
+    400044: Bip02 L UpperArm
+    400046: Bip02 Neck
+    400048: Bip02 Pelvis
+    400050: Bip02 R Calf
+    400052: Bip02 R Clavicle
+    400054: Bip02 R Finger0
+    400056: Bip02 R Finger0Nub
+    400058: Bip02 R Finger1
+    400060: Bip02 R Finger1Nub
+    400062: Bip02 R Foot
+    400064: Bip02 R Forearm
+    400066: Bip02 R Hand
+    400068: Bip02 R Thigh
+    400070: Bip02 R Toe0
+    400072: Bip02 R Toe0Nub
+    400074: Bip02 R UpperArm
+    400076: Bip02 Spine
+    400078: Bip02 Spine1
+    400080: dead_autopsy_body
+    400082: l_legs
+    400084: tag_head
+    400086: tag_torso
+    400088: u_torso
+    400090: Zombie_mover
+    400092: h_head
+    2300000: ' voltage_needle'
+    2300002: ' voltage_needle01'
+    2300004: ' voltage_needle03'
+    2300006: //RootNode
+    2300008: dead_autopsy_body
+    2300010: tag_head
+    2300012: tag_torso
+    3300000: ' voltage_needle'
+    3300002: ' voltage_needle01'
+    3300004: ' voltage_needle03'
+    3300006: //RootNode
+    3300008: dead_autopsy_body
+    3300010: tag_head
+    3300012: tag_torso
+    4300000: autopsy_body_DUMMY
+    4300002: tag_head
+    4300004: tag_torso
+    4300006: ' voltage_needle03'
+    4300008: ' voltage_needle'
+    4300010: ' voltage_needle01'
+    4300012: l_legs
+    4300014: u_torso
+    4300016: dead_autopsy_body
+    4300018: switch_autopsy_DUMMY
+    4300020: h_head
+    7400000: Electo_Body_loop
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: l_legs
+    13700002: u_torso
+    13700004: h_head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Electo_Body_loop
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ' voltage_needle'
+        weight: 1
+      - path: ' voltage_needle01'
+        weight: 1
+      - path: ' voltage_needle03'
+        weight: 1
+      - path: dead_autopsy_body
+        weight: 1
+      - path: l_legs
+        weight: 1
+      - path: u_torso
+        weight: 1
+      - path: Zombie_mover
+        weight: 1
+      - path: Zombie_mover/Bip
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 L Thigh
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 L Thigh/Bip02 L Calf
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 L Thigh/Bip02 L Calf/Bip02
+          L Foot
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 L Thigh/Bip02 L Calf/Bip02
+          L Foot/Bip02 L Toe0
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 L Thigh/Bip02 L Calf/Bip02
+          L Foot/Bip02 L Toe0/Bip02 L Toe0Nub
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 R Thigh
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 R Thigh/Bip02 R Calf
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 R Thigh/Bip02 R Calf/Bip02
+          R Foot
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 R Thigh/Bip02 R Calf/Bip02
+          R Foot/Bip02 R Toe0
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 R Thigh/Bip02 R Calf/Bip02
+          R Foot/Bip02 R Toe0/Bip02 R Toe0Nub
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          Head
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          Head/Bip01_jaw
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          Head/Bip01_L_eye
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          Head/Bip01_R_eye
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          Head/Bip02 HeadNub
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle/Bip02 L UpperArm
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle/Bip02 L UpperArm/Bip02 L Forearm
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger0
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger0/Bip02
+          L Finger0Nub
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger1
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          L Clavicle/Bip02 L UpperArm/Bip02 L Forearm/Bip02 L Hand/Bip02 L Finger1/Bip02
+          L Finger1Nub
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle/Bip02 R UpperArm
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle/Bip02 R UpperArm/Bip02 R Forearm
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger0
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger0/Bip02
+          R Finger0Nub
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger1
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/Bip02 Neck/Bip02
+          R Clavicle/Bip02 R UpperArm/Bip02 R Forearm/Bip02 R Hand/Bip02 R Finger1/Bip02
+          R Finger1Nub
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/Bip02 Spine/Bip02 Spine1/tag_head
+        weight: 1
+      - path: Zombie_mover/Bip/Bip02 Pelvis/tag_torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

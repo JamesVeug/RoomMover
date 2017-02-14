@@ -1,0 +1,96 @@
+fileFormatVersion: 2
+guid: 136d1c8a5f6dc5a4690bd0a4a0482625
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bathroom_4x3
+    100004: Bathroom_4x3_Colllision
+    100006: Bathroom_Men
+    100008: Bathroom_Women
+    100010: DOOR_DUMMY_1
+    100012: DOOR_DUMMY_2
+    400000: //RootNode
+    400002: Bathroom_4x3
+    400004: Bathroom_4x3_Colllision
+    400006: Bathroom_Men
+    400008: Bathroom_Women
+    400010: DOOR_DUMMY_1
+    400012: DOOR_DUMMY_2
+    2300000: Bathroom_4x3
+    2300002: Bathroom_4x3_Colllision
+    2300004: Bathroom_Men
+    2300006: Bathroom_Women
+    3300000: Bathroom_4x3
+    3300002: Bathroom_4x3_Colllision
+    3300004: Bathroom_Men
+    3300006: Bathroom_Women
+    4300000: Bathroom_4x3
+    4300002: Bathroom_Men
+    4300004: Bathroom_Women
+    4300006: Bathroom_4x3_Colllision
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: e3d5ae859d5c76b49a2bd941611dae53
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Item_Fuse_Mesh
+    100002: //RootNode
+    100004: autopsy_Door_Exit
+    100006: autopsy_HydroA
+    100008: autopsy_HydroB
+    100010: warning_light_OFF
+    100012: warning_light_ON
+    400000: Item_Fuse_Mesh
+    400002: //RootNode
+    400004: autopsy_Door_Exit
+    400006: autopsy_HydroA
+    400008: autopsy_HydroB
+    400010: warning_light_OFF
+    400012: warning_light_ON
+    2300000: Item_Fuse_Mesh
+    2300002: //RootNode
+    2300004: autopsy_Door_Exit
+    2300006: autopsy_HydroA
+    2300008: autopsy_HydroB
+    2300010: warning_light_OFF
+    2300012: warning_light_ON
+    3300000: Item_Fuse_Mesh
+    3300002: //RootNode
+    3300004: autopsy_Door_Exit
+    3300006: autopsy_HydroA
+    3300008: autopsy_HydroB
+    3300010: warning_light_OFF
+    3300012: warning_light_ON
+    4300000: Item_pickup_Fuse_TRIGGER
+    4300002: Item_Fuse_Mesh
+    4300004: autopsy_HydroA
+    4300006: autopsy_HydroB
+    4300008: autopsy_Door_Exit
+    4300010: warning_light_OFF
+    4300012: warning_light_ON
+    7400000: Item_pickup_Fuse
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Item_pickup_Fuse
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Item_Fuse_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

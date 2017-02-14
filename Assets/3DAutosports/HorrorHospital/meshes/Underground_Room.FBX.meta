@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 4a7c02390830f95449bff198ffd4841e
+timeCreated: 1463339154
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Elevator_Room_END
+    100002: End_Underground_Collision
+    100004: StartRoom_Basement_END
+    100006: under_ground_broken_hall_END
+    100008: under_ground_chamber_END
+    100010: under_ground_dirt_END
+    100012: under_ground_Rock_END
+    100014: //RootNode
+    100016: HH-Elevator_Room_END
+    100018: HH-End_Underground_Collision
+    100020: HH-StartRoom_Basement_END
+    100022: HH-under_ground_broken_hall_END
+    100024: HH-under_ground_chamber_END
+    100026: HH-under_ground_dirt_END
+    100028: HH-under_ground_Rock_END
+    100030: StatueHoldingPowerup
+    400000: Elevator_Room_END
+    400002: End_Underground_Collision
+    400004: StartRoom_Basement_END
+    400006: under_ground_broken_hall_END
+    400008: under_ground_chamber_END
+    400010: under_ground_dirt_END
+    400012: under_ground_Rock_END
+    400014: //RootNode
+    400016: HH-Elevator_Room_END
+    400018: HH-End_Underground_Collision
+    400020: HH-StartRoom_Basement_END
+    400022: HH-under_ground_broken_hall_END
+    400024: HH-under_ground_chamber_END
+    400026: HH-under_ground_dirt_END
+    400028: HH-under_ground_Rock_END
+    400030: StatueHoldingPowerup
+    2300000: Elevator_Room_END
+    2300002: End_Underground_Collision
+    2300004: under_ground_broken_hall_END
+    2300006: under_ground_chamber_END
+    2300008: under_ground_dirt_END
+    2300010: under_ground_Rock_END
+    2300012: HH-Elevator_Room_END
+    2300014: HH-End_Underground_Collision
+    2300016: HH-under_ground_broken_hall_END
+    2300018: HH-under_ground_chamber_END
+    2300020: HH-under_ground_dirt_END
+    2300022: HH-under_ground_Rock_END
+    2300024: StatueHoldingPowerup
+    3300000: Elevator_Room_END
+    3300002: End_Underground_Collision
+    3300004: under_ground_broken_hall_END
+    3300006: under_ground_chamber_END
+    3300008: under_ground_dirt_END
+    3300010: under_ground_Rock_END
+    3300012: HH-Elevator_Room_END
+    3300014: HH-End_Underground_Collision
+    3300016: HH-under_ground_broken_hall_END
+    3300018: HH-under_ground_chamber_END
+    3300020: HH-under_ground_dirt_END
+    3300022: HH-under_ground_Rock_END
+    3300024: StatueHoldingPowerup
+    4300000: End_Underground_Collision
+    4300002: Elevator_Room_END
+    4300004: under_ground_chamber_END
+    4300006: under_ground_Rock_END
+    4300008: under_ground_broken_hall_END
+    4300010: under_ground_dirt_END
+    4300012: HH-End_Underground_Collision
+    4300014: HH-Elevator_Room_END
+    4300016: HH-under_ground_chamber_END
+    4300018: HH-under_ground_Rock_END
+    4300020: HH-under_ground_broken_hall_END
+    4300022: HH-under_ground_dirt_END
+    4300024: StatueHoldingPowerup
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

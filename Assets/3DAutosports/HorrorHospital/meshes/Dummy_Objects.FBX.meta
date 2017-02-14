@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 88c74509a7a007049bb8af4afeb242a4
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Dummy_Audio_Scare
+    100002: Dummy_Beds
+    100004: Dummy_Bunker_Lights
+    100006: Dummy_Decals
+    100008: Dummy_FoyerDoors
+    100010: Dummy_HangingLight
+    100012: Dummy_KitTable
+    100014: Dummy_Lights
+    100016: //RootNode
+    100018: Dummy_PaddedDoor
+    100020: Dummy_Page
+    100022: Dummy_Posters
+    100024: Dummy_Shadow_Scare
+    100026: Dummy_Sink
+    100028: Dummy_Stall
+    100030: Dummy_StartRoom
+    100032: Dummy_Toilet
+    100034: Dummy_Wall_Bath_Large
+    100036: Dummy_Wall_Bath_Small
+    100038: Dummy_Wall_Lights
+    100040: Dummy_Wall_Objects
+    100042: Dummy_Wall_Small
+    100044: Dummy_Elevator
+    400000: Dummy_Audio_Scare
+    400002: Dummy_Beds
+    400004: Dummy_Bunker_Lights
+    400006: Dummy_Decals
+    400008: Dummy_FoyerDoors
+    400010: Dummy_HangingLight
+    400012: Dummy_KitTable
+    400014: Dummy_Lights
+    400016: //RootNode
+    400018: Dummy_PaddedDoor
+    400020: Dummy_Page
+    400022: Dummy_Posters
+    400024: Dummy_Shadow_Scare
+    400026: Dummy_Sink
+    400028: Dummy_Stall
+    400030: Dummy_StartRoom
+    400032: Dummy_Toilet
+    400034: Dummy_Wall_Bath_Large
+    400036: Dummy_Wall_Bath_Small
+    400038: Dummy_Wall_Lights
+    400040: Dummy_Wall_Objects
+    400042: Dummy_Wall_Small
+    400044: Dummy_Elevator
+    2300000: Dummy_Audio_Scare
+    2300002: Dummy_Beds
+    2300004: Dummy_Bunker_Lights
+    2300006: Dummy_Decals
+    2300008: Dummy_FoyerDoors
+    2300010: Dummy_HangingLight
+    2300012: Dummy_KitTable
+    2300014: Dummy_Lights
+    2300016: Dummy_PaddedDoor
+    2300018: Dummy_Page
+    2300020: Dummy_Posters
+    2300022: Dummy_Shadow_Scare
+    2300024: Dummy_Sink
+    2300026: Dummy_Stall
+    2300028: Dummy_StartRoom
+    2300030: Dummy_Toilet
+    2300032: Dummy_Wall_Bath_Large
+    2300034: Dummy_Wall_Bath_Small
+    2300036: Dummy_Wall_Lights
+    2300038: Dummy_Wall_Objects
+    2300040: Dummy_Wall_Small
+    2300042: Dummy_Elevator
+    3300000: Dummy_Audio_Scare
+    3300002: Dummy_Beds
+    3300004: Dummy_Bunker_Lights
+    3300006: Dummy_Decals
+    3300008: Dummy_FoyerDoors
+    3300010: Dummy_HangingLight
+    3300012: Dummy_KitTable
+    3300014: Dummy_Lights
+    3300016: Dummy_PaddedDoor
+    3300018: Dummy_Page
+    3300020: Dummy_Posters
+    3300022: Dummy_Shadow_Scare
+    3300024: Dummy_Sink
+    3300026: Dummy_Stall
+    3300028: Dummy_StartRoom
+    3300030: Dummy_Toilet
+    3300032: Dummy_Wall_Bath_Large
+    3300034: Dummy_Wall_Bath_Small
+    3300036: Dummy_Wall_Lights
+    3300038: Dummy_Wall_Objects
+    3300040: Dummy_Wall_Small
+    3300042: Dummy_Elevator
+    4300000: Dummy_Wall_Objects
+    4300002: Dummy_Beds
+    4300004: Dummy_Lights
+    4300006: Dummy_Decals
+    4300008: Dummy_Posters
+    4300010: Dummy_Wall_Bath_Large
+    4300012: Dummy_Wall_Bath_Small
+    4300014: Dummy_Wall_Small
+    4300016: Dummy_Bunker_Lights
+    4300018: Dummy_Wall_Lights
+    4300020: Dummy_Stall
+    4300022: Dummy_Toilet
+    4300024: Dummy_Sink
+    4300026: Dummy_FoyerDoors
+    4300028: Dummy_Page
+    4300030: Dummy_HangingLight
+    4300032: Dummy_PaddedDoor
+    4300034: Dummy_KitTable
+    4300036: Dummy_StartRoom
+    4300038: Dummy_Audio_Scare
+    4300040: Dummy_Shadow_Scare
+    4300042: Dummy_Elevator
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

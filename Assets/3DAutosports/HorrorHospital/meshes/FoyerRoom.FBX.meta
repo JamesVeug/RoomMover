@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 394b9cb3069865e45ac794597cd078cb
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: DOOR_DUMMY_A01
+    100002: DOOR_DUMMY_A02
+    100004: DOOR_DUMMY_A03
+    100006: DOOR_DUMMY_A04
+    100008: DOOR_DUMMY_A05
+    100010: //RootNode
+    100012: FoyerRoom_Collision
+    100014: FoyerRoom_Desk
+    100016: FoyerRoom_Enter
+    100018: FoyerRoom_Hall
+    100020: FoyerRoom_SectionA
+    100022: FoyerRoom_SectionB
+    100024: FoyerRoom_SectionC
+    100026: FoyerRoom_SectionD
+    400000: DOOR_DUMMY_A01
+    400002: DOOR_DUMMY_A02
+    400004: DOOR_DUMMY_A03
+    400006: DOOR_DUMMY_A04
+    400008: DOOR_DUMMY_A05
+    400010: //RootNode
+    400012: FoyerRoom_Collision
+    400014: FoyerRoom_Desk
+    400016: FoyerRoom_Enter
+    400018: FoyerRoom_Hall
+    400020: FoyerRoom_SectionA
+    400022: FoyerRoom_SectionB
+    400024: FoyerRoom_SectionC
+    400026: FoyerRoom_SectionD
+    2300000: FoyerRoom_Collision
+    2300002: FoyerRoom_Desk
+    2300004: FoyerRoom_Enter
+    2300006: FoyerRoom_Hall
+    2300008: FoyerRoom_SectionA
+    2300010: FoyerRoom_SectionB
+    2300012: FoyerRoom_SectionC
+    2300014: FoyerRoom_SectionD
+    3300000: FoyerRoom_Collision
+    3300002: FoyerRoom_Desk
+    3300004: FoyerRoom_Enter
+    3300006: FoyerRoom_Hall
+    3300008: FoyerRoom_SectionA
+    3300010: FoyerRoom_SectionB
+    3300012: FoyerRoom_SectionC
+    3300014: FoyerRoom_SectionD
+    4300000: FoyerRoom_SectionA
+    4300002: FoyerRoom_SectionC
+    4300004: FoyerRoom_Desk
+    4300006: FoyerRoom_SectionB
+    4300008: FoyerRoom_SectionD
+    4300010: FoyerRoom_Hall
+    4300012: FoyerRoom_Enter
+    4300014: FoyerRoom_Collision
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

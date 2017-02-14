@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 51f1b8bc3f847bc419c3baa970245328
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Attach_Looping_Electrocute_Anim_here
+    100002: autopsy_Door_B
+    100004: autopsy_Door_C
+    100006: dead_autopsy_body
+    100008: electical_door_open
+    100010: KEY_LOCATION
+    100012: //RootNode
+    100014: switch_autopsy_mesh
+    100016: voltage_face_OFF
+    100018: voltage_face_ON
+    100020: ' voltage_needle_OFF'
+    400000: Attach_Looping_Electrocute_Anim_here
+    400002: autopsy_Door_B
+    400004: autopsy_Door_C
+    400006: dead_autopsy_body
+    400008: electical_door_open
+    400010: KEY_LOCATION
+    400012: //RootNode
+    400014: switch_autopsy_mesh
+    400016: voltage_face_OFF
+    400018: voltage_face_ON
+    400020: ' voltage_needle_OFF'
+    2300000: autopsy_Door_B
+    2300002: autopsy_Door_C
+    2300004: dead_autopsy_body
+    2300006: electical_door_open
+    2300008: //RootNode
+    2300010: switch_autopsy_mesh
+    2300012: voltage_face_OFF
+    2300014: voltage_face_ON
+    2300016: ' voltage_needle_OFF'
+    3300000: autopsy_Door_B
+    3300002: autopsy_Door_C
+    3300004: dead_autopsy_body
+    3300006: electical_door_open
+    3300008: //RootNode
+    3300010: switch_autopsy_mesh
+    3300012: voltage_face_OFF
+    3300014: voltage_face_ON
+    3300016: ' voltage_needle_OFF'
+    4300000: switch_autopsy_TRIGGER
+    4300002: autopsy_Door_C
+    4300004: autopsy_Door_B
+    4300006: switch_autopsy_mesh
+    4300008: voltage_face_OFF
+    4300010: voltage_face_ON
+    4300012: electical_door_open
+    4300014: dead_autopsy_body
+    4300016: ' voltage_needle_OFF'
+    7400000: turn off switch
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: turn off switch
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Attach_Looping_Electrocute_Anim_here
+        weight: 1
+      - path: autopsy_Door_B
+        weight: 1
+      - path: autopsy_Door_C
+        weight: 1
+      - path: dead_autopsy_body
+        weight: 1
+      - path: electical_door_open
+        weight: 1
+      - path: KEY_LOCATION
+        weight: 1
+      - path: KEY_LOCATION/switch_autopsy_mesh
+        weight: 1
+      - path: voltage_face_OFF
+        weight: 1
+      - path: voltage_face_ON
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
