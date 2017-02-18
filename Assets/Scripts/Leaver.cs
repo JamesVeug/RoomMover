@@ -71,4 +71,9 @@ public class Leaver : Triggerable
             moving = true;
         }
     }
+
+    public override bool IsLocked()
+    {
+        return state == LightState.Closed;
+    }
 }

@@ -10,6 +10,7 @@ public class Room : MonoBehaviour
     {
         public Triggerable trigger;
         public Triggerable lockedBy;
+        public Triggerable enabledBy;
         public bool TriggerOnce;
         public bool Triggered;
         
@@ -94,11 +95,26 @@ public class Room : MonoBehaviour
                 continue;
             }
 
-            if (Trigger.lockedBy == null || !Trigger.lockedBy.IsLocked() || !(Trigger.Triggered && Trigger.TriggerOnce))
+            bool isLocked = Trigger.lockedBy != null && Trigger.lockedBy.IsLocked();
+            if (isLocked)
             {
-                Trigger.trigger.Toggle();
-                Trigger.Triggered = true;
+                continue;
             }
+
+            bool isDisabled = Trigger.enabledBy != null && !Trigger.enabledBy.IsLocked();
+            if (isDisabled)
+            {
+                continue;
+            }
+
+            bool alreadyTriggered = (Trigger.Triggered && Trigger.TriggerOnce);
+            if (alreadyTriggered)
+            {
+                continue;
+            }
+
+            Trigger.trigger.Toggle();
+            Trigger.Triggered = true;
         }
     }
 }

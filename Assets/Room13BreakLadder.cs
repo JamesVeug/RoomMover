@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Room13BreakLadder : Triggerable
 {
@@ -16,6 +13,6 @@ public class Room13BreakLadder : Triggerable
             r.AddForce(Vector2.up * ForcePush);
         }
 
-        GameCamera.Instance.SetCurrentPosition(GameCamera.Instance.lastPosition);
+        GameCamera.Instance.SetCurrentPosition(GameCamera.Instance.currentPosition);
     }
 }
