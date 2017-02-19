@@ -16,6 +16,11 @@ public class Leaver : Triggerable
     public Transform pivot;
     public LightState state;
 
+    public AudioClipType OpenSound;
+    public AudioClipType CloseSound;
+    public AudioClipType MovingSound;
+    public AudioSource audioSource;
+
     private bool moving;
     private float timeMoving;
 
@@ -60,7 +65,16 @@ public class Leaver : Triggerable
                 t.Toggle();
             }
 
-            state = (LightState)Mathc.Wrap((int)state + 1, 0, 2);
+            if(state == LightState.Closed)
+            {
+                state = LightState.Open;
+                AudioManager.Instance.PlaySound(OpenSound, false, audioSource);
+            }
+            else if (state == LightState.Open)
+            {
+                state = LightState.Closed;
+                AudioManager.Instance.PlaySound(CloseSound, false, audioSource);
+            }
         }
     }
 
@@ -68,6 +82,7 @@ public class Leaver : Triggerable
     {
         if (!moving)
         {
+            AudioManager.Instance.PlaySound(MovingSound, false, audioSource);
             moving = true;
         }
     }

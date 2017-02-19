@@ -4,6 +4,10 @@ public class Room13BreakLadder : Triggerable
 {
     public float ForcePush = 20;
     public Rigidbody[] ladders;
+    public AudioSource Source;
+    public MapNode lastMapNode;
+
+    private bool triggered;
 
     public override void Toggle()
     {
@@ -12,7 +16,14 @@ public class Room13BreakLadder : Triggerable
             r.constraints = RigidbodyConstraints.None;
             r.AddForce(Vector2.up * ForcePush);
         }
+        triggered = true;
 
-        GameCamera.Instance.SetCurrentPosition(GameCamera.Instance.currentPosition);
+        Source = AudioManager.Instance.PlaySound(AudioClipType.LadderBreak, false, Source);
+        GameCamera.Instance.SetCurrentPosition(lastMapNode);
+    }
+
+    public override bool IsLocked()
+    {
+        return triggered;
     }
 }

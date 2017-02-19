@@ -34,6 +34,13 @@ public class GameCamera : Singleton<GameCamera>
         ResetCamera();
     }
 
+    private IEnumerator SetCurrentPositionCoroutine(MapNode node)
+    {
+        currentPosition = node;
+        ResetCamera();
+        yield break;
+    }
+
     public void ResetCamera()
     {
         Start(ResetCameraCoroutine());
@@ -44,6 +51,7 @@ public class GameCamera : Singleton<GameCamera>
     {
         if(currentCoroutine != null)
         {
+            isMoving = false;
             StopCoroutine(currentCoroutine);
         }
         currentCoroutine = coroutine;
@@ -132,7 +140,7 @@ public class GameCamera : Singleton<GameCamera>
         Vector3 startPosition = camera.transform.position;
         Vector3 endPosition = start.transform.position + (end.transform.position - start.transform.position) * percent;
         Vector3 distance = endPosition - startPosition;
-        float timeToTravel = distance.magnitude / (end.transform.position - startPosition).magnitude * SwipeTransitionTime;
+        float timeToTravel = distance.magnitude / (end.transform.position - startPosition).magnitude * TransitionTime;
 
         if (percent == 1)
         {
@@ -150,9 +158,9 @@ public class GameCamera : Singleton<GameCamera>
         }
 
         float time = 0;
-        while (time < timeToTravel)
+        while (time < timeToTravel && (!lockCamera || isMoving))
         {
-            time += Time.deltaTime;
+            time += Time.fixedDeltaTime;
             float scale = time / TransitionTime;
 
             // Camera
@@ -173,10 +181,10 @@ public class GameCamera : Singleton<GameCamera>
             }
 
 
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForFixedUpdate();
         }
 
-        if (percent == 1)
+        if (time >= timeToTravel)
         {
             // Triggers
             start.room.OnExit();

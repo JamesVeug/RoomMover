@@ -10,6 +10,8 @@ public class Elevator : Triggerable
     public Transform Model;
     public MapNode[] Floors;
     public int StartingPosition = 0;
+    public AudioSource audioSource;
+    public AudioClipType ElevatorMovingSound;
 
     private int floor = 0;
 
@@ -22,7 +24,7 @@ public class Elevator : Triggerable
     {
         int nextFloor = (int)Mathc.Wrap(floor + 1, 0, Floors.Length);
 
-
+        audioSource = AudioManager.Instance.PlaySound(AudioClipType.ElevatorMoving, true, audioSource);
         StartCoroutine(GameCamera.Instance.TransitionCamera(GameCamera.Instance.currentPosition, Floors[nextFloor], timeToNextFloor, 1, true));
         StartCoroutine(Move(nextFloor));
     }
@@ -41,6 +43,11 @@ public class Elevator : Triggerable
             Model.position = Vector3.Lerp(startPos, endPos, time / timeToNextFloor);
             yield return new WaitForEndOfFrame();
             time += Time.deltaTime;
+        }
+
+        if(audioSource != null)
+        {
+            audioSource.Stop();
         }
 
         Model.position = endPos;

@@ -1,16 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
 public enum AudioClipType
 {
+    None = 0,
     ButtonPress,
     SlidingDoorMove,
     SlidingDoorStop,
     CameraMove,
     LightOff,
-    LightOn
+    LightOn,
+    LadderBreak,
+    ElevatorMoving,
 }
 
 public class AudioManager : Singleton<AudioManager>
@@ -30,6 +32,11 @@ public class AudioManager : Singleton<AudioManager>
 
     public AudioSource PlaySound(AudioClipType type, bool loop = false, AudioSource source = null)
     {
+        if(type == AudioClipType.None)
+        {
+            return null;
+        }
+
         var group = Find(type);
         if(group == null)
         {
