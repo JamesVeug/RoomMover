@@ -4,8 +4,8 @@ public class Leaver : Triggerable
 {
     public enum LightState
     {
-        Open,
-        Closed
+        Up,
+        Down
     }
 
     public Triggerable[] TriggerOnTap;
@@ -16,8 +16,8 @@ public class Leaver : Triggerable
     public Transform pivot;
     public LightState state;
 
-    public AudioClipType OpenSound;
-    public AudioClipType CloseSound;
+    public AudioClipType UpSound;
+    public AudioClipType DownSound;
     public AudioClipType MovingSound;
     public AudioSource audioSource;
 
@@ -27,7 +27,7 @@ public class Leaver : Triggerable
     void Start()
     {
         pivot.localRotation = Quaternion.Euler(startRotation);
-        if(state == LightState.Closed)
+        if(state == LightState.Down)
         {
             pivot.localRotation = Quaternion.Euler(endRotation);
         }
@@ -46,7 +46,7 @@ public class Leaver : Triggerable
 
         timeMoving = Mathf.Min(MoveTime, timeMoving + Time.fixedDeltaTime);
 
-        if (state == LightState.Closed)
+        if (state == LightState.Down)
         {
             pivot.localRotation = Quaternion.Slerp(Quaternion.Euler(endRotation), Quaternion.Euler(startRotation), timeMoving / MoveTime);
         }
@@ -65,15 +65,15 @@ public class Leaver : Triggerable
                 t.Toggle();
             }
 
-            if(state == LightState.Closed)
+            if(state == LightState.Down)
             {
-                state = LightState.Open;
-                AudioManager.Instance.PlaySound(OpenSound, false, audioSource);
+                state = LightState.Up;
+                AudioManager.Instance.PlaySound(UpSound, false, audioSource);
             }
-            else if (state == LightState.Open)
+            else if (state == LightState.Up)
             {
-                state = LightState.Closed;
-                AudioManager.Instance.PlaySound(CloseSound, false, audioSource);
+                state = LightState.Down;
+                AudioManager.Instance.PlaySound(DownSound, false, audioSource);
             }
         }
     }
@@ -89,6 +89,6 @@ public class Leaver : Triggerable
 
     public override bool IsLocked()
     {
-        return state == LightState.Closed;
+        return state == LightState.Down;
     }
 }

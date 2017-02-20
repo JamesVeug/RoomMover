@@ -65,6 +65,7 @@ public class TapListener : Singleton<TapListener>
 
     private void TapThingy(ScreenSwipeListener.SwipeInfo info)
     {
+        
         tapped.TriggerOnTapped.Toggle();
     }
 

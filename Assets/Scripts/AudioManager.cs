@@ -13,6 +13,9 @@ public enum AudioClipType
     LightOn,
     LadderBreak,
     ElevatorMoving,
+    LeverPullDown,
+    LeverPullUp,
+    LeverMoving,
 }
 
 public class AudioManager : Singleton<AudioManager>

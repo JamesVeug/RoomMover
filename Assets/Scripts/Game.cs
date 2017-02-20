@@ -34,7 +34,7 @@ public class Game : Singleton<Game>
             GameUI.Instance.HideInspector();
             return;
         }
-        else if(m_currentInspect != null)
+        else if(inspect != null)
         {
             m_currentInspect = inspect;
             GameCamera.Instance.Inspect(inspect.InspectCamerasTransform);

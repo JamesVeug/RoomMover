@@ -1,21 +1,22 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Audio;
-
-public class TapButton : Triggerable
+﻿public class TapButton : Triggerable
 {
     public AudioClipType PressSound = AudioClipType.ButtonPress;
 
     public Triggerable TriggerOnPush = null;
 
+    private bool isPressed = false;
+
     public void OnPush()
     {
         if(TriggerOnPush != null)
         {
-            TriggerOnPush.Toggle();
-            AudioManager.Instance.PlaySound(PressSound);
+            if (!!isPressed)
+            {
+                TriggerOnPush.Toggle();
+                AudioManager.Instance.PlaySound(PressSound);
+            }
+            isPressed = !isPressed;
+
         }
     }
 

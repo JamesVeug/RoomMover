@@ -74,6 +74,10 @@ public class GameCamera : Singleton<GameCamera>
 
     public void Inspect(Transform inspectTransform)
     {
+        if (currentCoroutine != null)
+        {
+            StopCoroutine(currentCoroutine);
+        }
         camera.transform.position = inspectTransform.position;
         camera.transform.rotation = inspectTransform.rotation;
         inspecting = true;
