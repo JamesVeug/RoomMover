@@ -62,20 +62,27 @@ public class AudioManager : Singleton<AudioManager>
 
     public AudioSource GetAudioSource()
     {
-        AudioSource source = audioSources.Find(a => !a.isPlaying);
-        if(source == null)
+        for (int i = 0; i < audioSources.Count; i++)
         {
-            source = gameObject.AddComponent<AudioSource>();
-            audioSources.Add(source);
+            if (!audioSources[i].isPlaying)
+            {
+                return audioSources[i];
+            }
         }
 
-
-        return source;
+        return null;
     }
 
     public AudioClipGroup Find(AudioClipType type)
     {
-        var item = AudioClips.Find(a => a.type == type);
-        return item;
+        for (int i = 0; i < AudioClips.Count; i++)
+        {
+            if(AudioClips[i].type == type)
+            {
+                return AudioClips[i];
+            }
+        }
+
+        return null;
     }
 }

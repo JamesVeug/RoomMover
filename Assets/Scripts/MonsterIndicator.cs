@@ -1,7 +1,5 @@
 ﻿/// Copyright (c) PikPok.  All rights reserved
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
 /// <summary>
 /// 
@@ -34,17 +32,13 @@ public class MonsterIndicator : MonoBehaviour
 	public void SetStage(float scale)
 	{
 		stage = scale;
-	}
+        Refresh();
+    }
 
 	void Start() 
     {
 		stage = 0;
 		UpdateIndicator();
-	}
-	
-	void Update() 
-    {
-		Refresh();
 	}
 
 	public void Refresh()

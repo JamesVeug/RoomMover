@@ -7,6 +7,8 @@ public class TapListener : Singleton<TapListener>
     public float cameraSwipePreviewAmount = 30;
     public float slack = 0.5f;
 
+
+    private int RayCastFlags = 1 << 8 | 1 << 9;
     private Vector2 lastSwipePosition = Vector2.zero;
     private Tapable tapped;
 
@@ -104,7 +106,7 @@ public class TapListener : Singleton<TapListener>
     public Tapable CheckForTappingOnItem(Vector2 tapPosition)
     {
         Ray ray = Camera.main.ScreenPointToRay(tapPosition);
-        RaycastHit[] hits = Physics.RaycastAll(ray, 999);
+        RaycastHit[] hits = Physics.RaycastAll(ray, 999, RayCastFlags);
         
         for (int i = 0; i < hits.Length; i++)
         {

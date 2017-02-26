@@ -36,24 +36,25 @@ public class ScreenSwipeListener : Singleton<ScreenSwipeListener>
 
     public Action<SwipeInfo> OnSwiping = delegate { };
     public Action<SwipeInfo> OnSwipe = delegate { };
+
     private bool canSwipe = true;
     private bool isMouseDown = false;
 
-    private Vector2 pressPosition = Vector2.zero;
-    private Vector2 lastReleasePosition = Vector2.zero;
+    private Vector2 pressPosition = Vectorc.Vector2Zero;
+    private Vector2 lastReleasePosition = Vectorc.Vector2Zero;
 
     void Update()
     {
 
         if (!TouchIsDown())
         {
-            if(canSwipe && pressPosition != Vector2.zero)
+            if(canSwipe && pressPosition != Vectorc.Vector2Zero)
             {
                 //TapListener.Instance.CheckForTappingOnItem(lastReleasePosition);
                 Swiped(lastReleasePosition, SwipeType.Release);
+                pressPosition = Vectorc.Vector2Zero;
+                canSwipe = true;
             }
-            pressPosition = Vector2.zero;
-            canSwipe = true;
             return;
         }
 
@@ -63,7 +64,7 @@ public class ScreenSwipeListener : Singleton<ScreenSwipeListener>
         }
 
         var currentPosition = GetPosition();
-        if (pressPosition == Vector2.zero)
+        if (pressPosition == Vectorc.Vector2Zero)
         {
             pressPosition = currentPosition;
             Swiped(pressPosition, SwipeType.Press);
@@ -98,7 +99,7 @@ public class ScreenSwipeListener : Singleton<ScreenSwipeListener>
     private bool TouchIsDown()
     {
 #if UNITY_EDITOR
-                if (isMouseDown)
+        if (isMouseDown)
         {
             if (Input.GetMouseButtonUp(0))
             {

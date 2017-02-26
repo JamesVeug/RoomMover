@@ -10,7 +10,7 @@
     {
         if(TriggerOnPush != null)
         {
-            if (!!isPressed)
+            if (!isPressed)
             {
                 TriggerOnPush.Toggle();
                 AudioManager.Instance.PlaySound(PressSound);
