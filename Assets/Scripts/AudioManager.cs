@@ -70,7 +70,9 @@ public class AudioManager : Singleton<AudioManager>
             }
         }
 
-        return null;
+        AudioSource component = gameObject.AddComponent<AudioSource>();
+
+        return component;
     }
 
     public AudioClipGroup Find(AudioClipType type)

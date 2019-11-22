@@ -3,10 +3,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameCamera : Singleton<GameCamera>
+public class GameCamera : MonoBehaviour
 {
     public Camera camera;
-    public AudioSource audioSource;
+    private Vector3 targetPosition;
+
+    private float m_transitionTime;
+    private float m_deltaTime;
+
+    void Update()
+    {
+
+    }
+
+    public void MoveCamera(Vector3 position, float moveTime)
+    {
+        targetPosition = position;
+        m_deltaTime = 0;
+        m_transitionTime = moveTime;
+    }
+
+    /*public AudioSource audioSource;
     public float SwipeTransitionTime = 0.25f;
     public float ResetTime = 2;
 
@@ -201,5 +218,5 @@ public class GameCamera : Singleton<GameCamera>
         }
 
         isMoving = false;
-    }
+    }*/
 }

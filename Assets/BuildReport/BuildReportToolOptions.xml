@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildReportToolOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IncludeSvnInUnused>true</IncludeSvnInUnused>
+  <IncludeGitInUnused>true</IncludeGitInUnused>
+  <AllowDeletingOfUsedAssets>false</AllowDeletingOfUsedAssets>
+  <CollectBuildInfo>true</CollectBuildInfo>
+  <BuildReportFolderName>UnityBuildReports</BuildReportFolderName>
+  <SaveType>0</SaveType>
+  <FilterToUseInt>0</FilterToUseInt>
+  <AssetListPaginationLength>300</AssetListPaginationLength>
+  <UnusedAssetsEntriesPerBatch>1000</UnusedAssetsEntriesPerBatch>
+  <IncludeUsedAssetsInReportCreation>true</IncludeUsedAssetsInReportCreation>
+  <IncludeUnusedAssetsInReportCreation>true</IncludeUnusedAssetsInReportCreation>
+  <IncludeUnusedPrefabsInReportCreation>true</IncludeUnusedPrefabsInReportCreation>
+  <IncludeBuildSizeInReportCreation>true</IncludeBuildSizeInReportCreation>
+  <GetImportedSizesForUsedAssets>true</GetImportedSizesForUsedAssets>
+  <GetImportedSizesForUnusedAssets>true</GetImportedSizesForUnusedAssets>
+  <GetProjectSettings>true</GetProjectSettings>
+  <AutoShowWindowAfterNormalBuild>true</AutoShowWindowAfterNormalBuild>
+  <AutoShowWindowAfterBatchModeBuild>false</AutoShowWindowAfterBatchModeBuild>
+  <UseThreadedFileLoading>false</UseThreadedFileLoading>
+</BuildReportToolOptions>
