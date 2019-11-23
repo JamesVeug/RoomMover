@@ -49,14 +49,7 @@ public class TapListener : Singleton<TapListener>
         else if (info.swipeType == ScreenSwipeListener.SwipeType.Press)
         {
             tapped = CheckForTappingOnItem(info.startPosition);
-            if(tapped != null)
-            {
-                TapThingy(info);
-            }
-            else
-            {
-                SwipeCamera(info);
-            }
+            SwipeCamera(info);
         }
     }
 

@@ -13,6 +13,7 @@ public class GameCamera : Singleton<GameCamera>
 
     public MapNode currentPosition { get { return m_currentPosition; } set { lastPosition = m_currentPosition; m_currentPosition = value; } }
     public MapNode lastPosition { get { return m_lastPosition; } set { m_lastPosition = value; } }
+    public bool IsInspecting { get { return inspecting; } }
 
     [SerializeField]
     private MapNode m_currentPosition;
@@ -63,27 +64,42 @@ public class GameCamera : Singleton<GameCamera>
     {
         Vector3 startPosition = camera.transform.position;
         Vector3 endPosition = currentPosition.transform.position;
-
+        Quaternion startRotation = camera.transform.rotation;
+        Quaternion endRotation = currentPosition.transform.rotation;
+        yield return LerpPositionAndRotationCoroutine(startPosition,endPosition,startRotation,endRotation);
+    }
+    
+    private IEnumerator LerpPositionAndRotationCoroutine(Vector3 startPosition, Vector3 endPosition, Quaternion startRotation, Quaternion endRotation)
+    {
+        float time = 0;
         while ((camera.transform.position-endPosition).magnitude > 0.05f )
         {
-            camera.transform.position = Vector3.Lerp(camera.transform.position, endPosition, Time.deltaTime);
+            time = Mathf.Clamp(time + Time.deltaTime, 0, ResetTime);
+            float ratio = time / ResetTime;
+            camera.transform.position = Vector3.Lerp(startPosition, endPosition, ratio);
+            camera.transform.rotation = Quaternion.Lerp(startRotation, endRotation, ratio);
             yield return new WaitForEndOfFrame();
         }
         camera.transform.position = endPosition;
         camera.transform.rotation = currentPosition.transform.rotation;
+        camera.transform.rotation = endRotation;
     }
 
-    public void Inspect(Transform inspectTransform)
+    public void Inspect(Transform position)
     {
-        if (currentCoroutine != null)
-        {
-            StopCoroutine(currentCoroutine);
-        }
-        camera.transform.position = inspectTransform.position;
-        camera.transform.rotation = inspectTransform.rotation;
+        Start(InspectCoroutine(position));
+    }
+    
+    private IEnumerator InspectCoroutine(Transform position)
+    {
+        Vector3 startPosition = camera.transform.position;
+        Vector3 endPosition = position.position;
+        Quaternion startRotation = camera.transform.rotation;
+        Quaternion endRotation = position.rotation;
+        yield return LerpPositionAndRotationCoroutine(startPosition,endPosition,startRotation,endRotation);
         inspecting = true;
     }
-
+    
     public void OnSwipe(ScreenSwipeListener.SwipeInfo swipeInfo, float percent)
     {
         if (inspecting || percent == movePercent)
